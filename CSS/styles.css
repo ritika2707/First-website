@@ -1,0 +1,172 @@
+body{
+    margin: 0;/*all 4 sides become 0*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: #40514E;
+}
+
+h1{
+   /* width: 10%; /*body m center likha h tb bhi direct centre m nhi kr rha 
+    margin : 0 auto 0 auto;*/
+    font-size: 5.625rem; /*90px*/ /* ese likhne se if computer ki font size bdlegi to yaha bhi font size bdlegi*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive; 
+    color: #66BFBF;
+}
+h2{
+    margin-top: 0px;
+    color: #66BFBF;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    margin: 100px auto;
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 3%;
+}
+
+p{
+    line-height: 2;
+}
+
+.TopContainer{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    /*height: 200px;
+    width: 200px;
+    border: solid 10px;
+    padding: 20px;*/
+}
+/*.MiddleContainer{
+    height: 200px;
+    width: 200px;
+    border: solid 20px;
+    background-color: #C1AEFC;
+    margin-left: 259px;
+}
+.BottomContainer{
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    margin-left: 499px;
+    background-color: #FCC2FC;
+}
+
+.pro{
+    text-decoration: underline;
+}*/
+
+.para1{
+    width: 30%;
+    margin: auto;
+}
+
+.woman{
+    width: 150px;
+    border-radius: 100%;
+}
+
+
+.top-cloud{
+    position: absolute;/*relative to it's parent(top container)*/
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skills{
+    width: 80%;
+    margin: auto;
+}
+
+.skill-row{
+    width: 50%; /*div ki width change hui*/
+    margin: 100px auto;
+    text-align: left;
+}
+
+.cp{
+    width: 25%; /* it will change according to the width of their parent*/
+    float: left; /* image pure text k left m chli jayegi*/
+    margin-right: 20px;
+}
+.chilli{
+    width: 25%;
+    float: right; /*image text k right m chli jayegi*/
+    margin-left: 20px;
+}
+
+/*.para{
+    clear: left; /* ab se image k left m nhi hoga uske neeche hi hoga(clear the left margin of this text)
+}*/
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  a{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    width: 150px;
+    text-decoration: none;
+    color: #11999E;
+  }
+
+  a:hover{
+    color: #EAF6F6;
+  }
+
+  .para4{
+    width: 40%;
+    margin: 40px auto;
+  }
+
+  .para5{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+  }
+
+  .bottom-container{
+    margin-top: 40px;
+    padding: 40px 0 20px;
+    background-color: #66BFBF;
+  }
